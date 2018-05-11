@@ -1,0 +1,2 @@
+Adds the Insanity Potion which greatly increases spawn rates.
+It does the same thing as the Zerg Potion from the calamity mod.

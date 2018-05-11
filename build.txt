@@ -1,0 +1,9 @@
+author = HumanGamer
+version = 1.0
+displayName = Insanity Potion
+homepage = https://github.com/HumanGamer/InsanityPotion
+hideCode = false
+hideResources = false
+includeSource = true
+buildIgnore = *.sln, *.csproj, *.user, obj\*, bin\*, .vs\*
+includePDB = true
