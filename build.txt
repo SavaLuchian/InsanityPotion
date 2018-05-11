@@ -1,5 +1,5 @@
 author = HumanGamer
-version = 1.0
+version = 1.0.0.1
 displayName = Insanity Potion
 homepage = https://github.com/HumanGamer/InsanityPotion
 hideCode = false
