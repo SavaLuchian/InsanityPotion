@@ -31,16 +31,13 @@ namespace InsanityBuff.Items
 			item.consumable = true;
 			item.buffType = mod.BuffType("Insanity");
 			item.buffTime = 7 * (60 * 60); // 7 minutes
-			item.value = Item.sellPrice(0, 0, 2, 50);
+			item.value = Item.sellPrice(0, 0, 0, 00);
 		}
 
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.BattlePotion);
-			recipe.AddIngredient(ItemID.Moonglow);
-			recipe.AddIngredient(ItemID.VilePowder);
-			recipe.AddIngredient(ItemID.Obsidian);
+			recipe.AddIngredient(ItemID.Wood);
 			recipe.AddTile(TileID.Bottles);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
